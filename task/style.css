@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Poppins&display=swap');
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+.center{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+
+header{
+	width: 100%;
+}
+
+.head1{
+	background: #cce5ff;
+	border-color: #b8daff;
+	padding-top: 10px;
+	padding-bottom: 1px;
+}
+
+.head2{
+	display: flex;
+	justify-content: space-between;
+	align-items: safe center;
+	padding: 40px 50px;
+    margin-top: 15px;
+
+}
+
+.head2_1 img{
+	width: 100px;
+}
+
+.head2_2{
+	display: flex;
+	justify-content: space-between;
+	align-items: safe center;
+	gap: 2.25rem;
+	padding: 0px 40px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+
+.price-btn{
+	color: #fff;
+	background-color: rgb(172, 150, 143);
+	width: 300px;
+	border-radius: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.address{
+	font-size: 16px;
+	margin-bottom: .55rem;
+	width: 140px;
+}
+
+.address p{
+	margin-bottom: 4px;
+}
+
+.real_address{
+	display: flex;
+	font-weight: bold;
+}
+
+.address a{
+	color: #111;
+	text-decoration: none;
+}
+
+.address a:hover{
+	text-decoration: underline;
+}
+
+/* ++++++ Section-2 ++++++  */
+
+.section2{
+	background-color: rgb(243, 239, 234);
+	padding: 10px;
+}
+
+.section2 .section2_1{
+	position: relative;
+	padding-top: 40px;
+	padding-right: 150px;
+	padding-bottom: 40px;
+	padding-left: 150px;
+
+}
+
+.section2_1 h1{
+	font-family: 'Playfair Display', serif;
+}
+
+.section2 .form{
+max-width: 100%;
+padding-top: 30px;
+padding-right: 30px;
+padding-bottom: 30px;
+padding-left: 30px;
+background-color: rgb(255, 255, 255);
+box-shadow: rgba(0, 0, 0, 0.16) 0px 8px 20px 0px;
+height: auto;
+}
+
+.section2 img{
+	vertical-align: middle;
+	max-width: 100%;
+}
+
+.section2 h1{
+font-size: 60px;
+font-weight: 400;
+line-height: 80px;
+color: rgb(51, 47, 49);
+display: inline-block;
+}
+
+.form h2{
+font-size: 30px;
+font-weight: 400;
+line-height: 40px;
+color: rgb(51, 47, 49);
+text-align: center;
+font-family: 'Playfair Display', serif;
+
+}
+
+.section3 {
+  background-color: #332f31;
+  height: auto;
+  width: 100%;
+}
+
+.main_section_3{
+	padding: 90px 150px 0px 150px;
+}
+
+#section3_content h2{
+	color: #ac968f;
+	font-family: 'Playfair Display', serif;
+	font-size: 38px;
+    line-height: 48px;
+
+}
+
+#section3_content p{
+	color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.section_3_1{
+	display: flex;
+	justify-content: space-between;
+	align-items: safe center;
+	gap: 2em;
+}
+
+.section_3_1 img{
+	width: 500px;
+}
+
+.section_3_2{
+	display: flex;
+	justify-content: space-between;
+	align-items: safe center;
+	gap: 2em;
+	padding-top: 110px;
+	padding-bottom: 110px;
+}
+
+.section_3_2 img{
+	width: 500px;
+}
+
+#section3_content1 p{
+	color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+/*  +++ section 4 */
+
+.section4{
+	background-color: #f3efea;
+	width: 100%;
+	height: auto;
+}
+
+.section4_1 h2{
+	font-family: 'Playfair Display', serif;
+	color: #111;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 62px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding-top: 3.15rem;
+}
+
+.section4_content{
+	display: flex;
+    justify-content: center;
+    padding-bottom: 3.5em;
+    gap: 1em;
+}
+
+
+.C_1image{
+	width:400px;
+
+}
+
+.section5_head h2{
+	font-family: 'Playfair Display', serif;
+	color: #111;
+	font-size: 40px;
+	font-weight: 400;
+	line-height: 62px;
+	margin-bottom: 0px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.section5{
+	background-color: #eaeae1;
+	width: 100%;
+	height: auto;
+	padding-bottom: 4em;
+}
+
+.section5_row{
+	display: grid;
+    grid-gap: 2em;
+	grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+	padding: 0 1em;
+}
+
+.section5_col1{
+	background-color: #fff;
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 3px 6px 16px 1px #7b7878b0;
+}
+
+.section6{
+height: 450px;
+background-image: url("https://g99plus.b-cdn.net/Landingpages/revive%20md/Jeuveau/Path%20261.png"), url("https://g99plus.b-cdn.net/Landingpages/aesthetic%20beauty%20lounge/lip_filler/AdobeStock_556469654.jpeg");
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding-top: 0px;
+padding-right: 15px;
+padding-bottom: 0px;
+padding-left: 15px;
+background-position-x: 50%;
+background-position-y: 50%;
+}
+
+.section6 h2{
+	color: #fff;
+	font-family: 'Playfair Display', serif;
+	font-size: 40px;
+}
+
+footer{
+	width: 100%;
+	height: auto;
+	background-color: #332f31;
+}
+
+.inner_footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: safe center;
+	padding: 10px 40px;
+}
+
+.inner_footer p{
+	color: #fff;
+	margin-bottom: 0px;
+	font-size: 14px;
+	font-family: 'Poppins', sans-serif;
+
+}
+
+
+@media screen and (max-width:438px){
+
+	.head2_2 button{
+		display: none;
+		padding: 0px 3px;
+	}
+
+	.center{
+		font-size: 12px;
+		transition: .3s ease;
+
+	}
+
+	.head2_2{
+		padding: 0 4px;
+	}
+
+	.head2_1 img{
+		width: 75px;
+		transition: .3s ease;
+	}
+
+	.head2{
+		padding: 10px;
+	}
+
+	.address p,a{
+		font-size: 10px;
+		transition: .3s ease;
+		justify-content: center;
+	}
+
+	.section2_1 h1{
+		padding-right: 0px;
+		transition: .3s ease;
+		text-align: center;
+		font-size: 30px;
+	}
+	.section2 .section2_1{
+		padding: 0px;
+	}
+
+	.section2 .form-wrapper {
+  position: relative;
+  top: auto;
+  right: auto;
+  max-width: 500px;
+}
+
+.section2 .form{
+	margin-bottom: 10px;
+}
+
+
+.main_section_3{
+	padding: 20px;
+}
+
+.section_3_1{
+	display: flex;
+	flex-wrap: wrap;
+	transition: .3s ease;
+}
+
+.section_3_1 img , .section_3_2 img{
+	width: 100%;
+	max-width: auto;
+}
+
+.section_3_2 {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.section4_content{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2em;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
